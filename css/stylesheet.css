@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'leto';
+}
+
+header {
+    background-image:url("../assets/Coffe\ Header.png");
+    background-color: #143642 70%;
+    background-size: cover;
+    width: 100%;
+    border-radius: 10px;
+    color:#F9FBFE;
+}
+.containner{
+    padding: 50px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width:335px;
+}
+.menu ul li {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    list-style: none;
+    display: inline-block;
+    margin:0 25px;
+}
+.menu a{
+    color:#F9FBFE;
+    justify-content: space-around;
+}
+.top-title{
+    margin: 100px auto;
+    width: 50%;
+    text-align: center;
+}
+.top-title h1{
+    font-size: 70px;
+    margin: 0px;
+}
+.top-title p{
+    font-size: 36px;
+    margin: 0;
+}
+
+.card{
+    padding: 50px 150px;
+    color: #143642;
+    display: flex;
+    justify-content: space-between;
+}
+.profil{
+    width: 500px;
+}
+.profil h2{
+    color: #0F8B8D;
+    font-size: 48px;
+    border-bottom: 3px solid #EC9A29;
+    display: inline-block;
+    margin: 0;
+}
+.profil p {
+    font-size: 24px;
+}
+.picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.btn-detail{
+    background-color: #A8201A;
+    color: #F9FBFE;
+    padding: 20px 50px;
+    border-radius: 50px;
+    border: none;
+    font-size: 24px;
+}
+
+.about .card {
+    justify-items: left;
+}
+.about .picture {
+    width: 200px;
+}
+.about .picture img{
+    width: 400px;
+    object-fit:contain;
+}
+
+.product .card{
+    flex-direction: row-reverse;
+}
+.product .picture{
+    height: 300px;
+}
+.product .picture img{
+    height: 503px;
+    object-fit: contain;
+}
+
+.place .card{
+    justify-items: left;
+}
+.place .picture{
+    width: 300px;
+}
+.place .picture img{
+    width: 450px;
+    object-fit: contain;
+}
+
+.igcard{
+    padding: 50px 150px;
+    font-size: 30px;
+    text-align: center;
+}
+.igcard .title{
+    color:#0F8B8D;
+}
+.igcard .title .oren {
+    color: #EC9A29;
+    border-bottom: 3px solid #EC9A29;
+    display: inline-block;
+}
+.katalog{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.katalog img{
+    height: 237px;
+    width:237;
+    margin-bottom: 50px;
+}
+
+.ask{
+    text-align: center;
+}
+.ask .profil {
+    width: 100%;
+}
