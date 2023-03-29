@@ -8,13 +8,13 @@ body{
     font-family: 'leto';
 }
 
-header {
-    background-image:url("../assets/Coffe\ Header.png");
-    background-color: #143642 70%;
+header .containner {
+    background-color: #143642;
     background-size: cover;
     width: 100%;
     border-radius: 10px;
     color:#F9FBFE;
+    background-image: url("../assets/Coffe\ Header.png");
 }
 .containner{
     padding: 50px;
@@ -132,13 +132,13 @@ header {
     border-bottom: 3px solid #EC9A29;
     display: inline-block;
 }
-.katalog{
+.katalogs{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
-.katalog img{
+.katalogs img{
     height: 237px;
     width:237;
     margin-bottom: 50px;
@@ -149,4 +149,76 @@ header {
 }
 .ask .profil {
     width: 100%;
+}
+
+footer{
+    background-color: #143642;
+    color: #F9FBFE;
+    width: 100%;
+    border-radius: 10px;
+}
+footer .containner{
+    display: flex;
+    justify-content: space-between;
+    justify-items: left;
+    padding: 50px 200px 200px 130px;
+}
+footer .logo{
+    margin-bottom: 30px;
+}
+footer .sosmed img{
+    filter: invert(100%);
+    height: 32px;
+    margin-right: 25px;
+}
+footer .link p{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+footer .link h3{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color:#EC9A29;
+}
+
+header .navmenu {
+    background-color: #0F8B8D;
+    color:#F9FBFE;
+    border-radius: 10px 10px 0 0;
+    padding: 50px;
+}
+
+.katalogs .katalog{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    background-image: url("../assets/Coffee\ background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 30px;
+    width: 216px;
+    margin-bottom: 20px;
+}
+.katalog img{
+    width:186px;
+    height: 139px;
+    margin: auto;
+}
+.katalog h4, .katalog p{
+    margin: 0;
+    color: #F9FBFE;
+}
+.katalog h4{
+    font-size: 20px;
+}
+.katalog p{
+    font-size: 18px;
+}
+.katalog .detail {
+    padding: 21px 0;
+}
+.detail h4{
+    margin-bottom: 10px;
 }
