@@ -187,7 +187,7 @@ header .navmenu {
     color:#F9FBFE;
     border-radius: 10px 10px 0 0;
     padding: 50px;
-}
+} 
 
 .katalogs .katalog{
     display: flex;
@@ -221,4 +221,42 @@ header .navmenu {
 }
 .detail h4{
     margin-bottom: 10px;
+}
+
+.pageproduct{
+    padding: 50px 150px;
+    color: #143642;   
+}
+.productdetail {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.productdetail img{
+    width: 500px;
+}
+.productdetail h2 {
+    color: #0F8B8D;
+    font-size: 48px;
+}
+.productdetail p{
+    color: #143642;
+    font-size: 24px;
+}
+.productdetail h1{
+    color: #0F8B8D;
+    font-size: 60px;
+}
+.pproduct h2{
+    color: #0F8B8D;
+    font-size: 48px;
+    border-bottom: 3px solid #EC9A29;
+    padding-bottom: 20px;
+}
+.btn-detail img{
+    filter: invert(100%);
+    transform: scaleX(-1);
+    display: inline-block;
+    height: 20px;
+    margin: 0;
 }
