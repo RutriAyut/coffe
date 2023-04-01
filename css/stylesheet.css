@@ -260,3 +260,47 @@ header .navmenu {
     height: 20px;
     margin: 0;
 }
+
+.findus .containner{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.findus .title{
+    width: 50%;
+}
+.findus .title h2{
+    font-size: 42px;
+}
+.findus .title p{
+    color: #143642;
+    margin: 20px 0;
+    font-size: 24px;
+}
+.findus .white-card {
+    background-color: white;
+    border: 1px solid #D2D2D2;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 20px 45px;
+    color: #143642;
+    text-align: left;
+    margin: 20px 0;
+    height: 200px;
+    width: 80%;
+}
+.white-card h3 {
+    font-size: 30px;
+    margin: 20px 0;
+}
+.white-card p{
+    font-size: 20px;
+    line-height: 24px;
+}
+.findus .map {
+    display: flex;
+    align-items: center;
+}
+.findus .map img{
+    width: 550px;
+}
