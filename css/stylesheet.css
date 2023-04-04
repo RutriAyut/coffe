@@ -5,7 +5,7 @@ a{
     text-decoration: none;
 }
 body{
-    font-family: 'leto';
+    font-family: 'Lato', sans-serif;
 }
 
 header .containner {
@@ -261,6 +261,20 @@ header .navmenu {
     margin: 0;
 }
 
+.title h2{
+    font-size: 48px;
+    margin:20px 0;
+}
+.white-card{
+    background-color: white;
+    border: 1px solid #D2D2D2;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 20px 45px;
+    color: #143642;
+    text-align: left;
+}
+
 .findus .containner{
     display: flex;
     justify-content: space-between;
@@ -269,22 +283,12 @@ header .navmenu {
 .findus .title{
     width: 50%;
 }
-.findus .title h2{
-    font-size: 42px;
-}
 .findus .title p{
     color: #143642;
     margin: 20px 0;
     font-size: 24px;
 }
 .findus .white-card {
-    background-color: white;
-    border: 1px solid #D2D2D2;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
-    padding: 20px 45px;
-    color: #143642;
-    text-align: left;
     margin: 20px 0;
     height: 200px;
     width: 80%;
@@ -303,4 +307,39 @@ header .navmenu {
 }
 .findus .map img{
     width: 550px;
+}
+
+.help-containner{
+    padding: 50px 150px;
+    color: #143642;
+}
+.help-containner h2{
+    margin-bottom: 50px;
+}
+.help-containner .white-card{
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+.input-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 98px;
+}
+.input-form p{
+    font-size: 30px;
+}
+.input-form input, .input-form textarea{
+    padding: 20px 45px;
+    border: 2px solid #D2D2D2;
+    border-radius: 20px;
+    width: 65%;
+    height: 70px;
+    font-size: 24px;
+}
+.input-form textarea{
+    height: 200px;
+}
+.input-form .btn-detail {
+    display: inline-block;
 }
